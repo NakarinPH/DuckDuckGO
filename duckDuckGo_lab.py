@@ -24,6 +24,7 @@ president = ['Washington', 'Adams', 'Jefferson', 'Madison', 'Monroe', 'Jackson',
              'Clinton', 'Obama', 'Trump', 'Biden']
 
 
+# test if each president in the list
 @pytest.mark.parametrize("presidents", president)
 def test_ddg0(presidents):
     for data in president_list:
